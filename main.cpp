@@ -1,7 +1,7 @@
 void nStarTriangle(int n) {
     for (int i = 1; i <= n; i++) {
 	    // Spaces
-	    for (int j = 1; j <= n - i - 1; j++) {
+	    for (int j = 1; j <= n - i; j++) {
 		    cout << " ";
 	    }
 	    // Stars
@@ -9,7 +9,7 @@ void nStarTriangle(int n) {
 		    cout << "*";
 	    }
 		// Spaces
-	    for (int j = 1; j <= n - i - 1; j++) {
+	    for (int j = 1; j <= n - i; j++) {
 		    cout << " ";
 	    }
 	    cout << endl;
